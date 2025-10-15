@@ -1,0 +1,20 @@
+airline-delay-pipeline/
+├── data/
+│   ├── 01_raw/          <-- Datos originales inmutables (Descarga Kaggle CLI)
+│   ├── 02_intermediate/ <-- Datos limpiados y transformados
+│   └── 03_processed/    <-- Datos listos para ML (Tabla final BigQuery)
+├── docs/                <-- Documentación adicional (Diagrama de pipeline, data dictionary)
+├── notebooks/           <-- Notebooks de exploración (EDA) y experimentación inicial (ML)
+├── src/                 <-- CÓDIGO PRODUCTIVO (Python, SQL)
+│   ├── __init__.py      <-- Convierte 'src' en un módulo Python
+│   ├── data/            <-- Scripts de extracción y carga (Tarea 1.2, 1.3)
+│   │   ├── extract.py
+│   │   └── load.py
+│   ├── models/          <-- Scripts de ML y entrenamiento (Tarea 2.2)
+│   └── pipeline/        <-- Definición de Airflow DAGs (Tarea 2.3)
+├── reports/             <-- Figuras y dashboards exportados (Imágenes, HTML)
+├── .env                 <-- Variables de entorno (NO para secretos, solo configuración)
+├── .gitignore
+├── README.md
+├── requirements.txt     <-- Dependencias de Conda/pip
+└── setup.py / pyproject.toml <-- Permite instalar 'src' como un paquete.
