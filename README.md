@@ -12,10 +12,10 @@ Allowing to build things that provide as much value as possible and are worth th
 
 ## **Data Engineering Project Proposal: Airline Delay Prediction Pipeline on GCP**
 
-**I will develop a project in the area of Airline Data analytics , which has the following principles
-Build a robust, scalable `ETL Pipeline` on `Google Cloud Platform (GCP)` using `Python` and `Airflow` to ingest publicly available airline operational data, store it efficiently in `BigQuery`, and apply a basic `Machine Learning model` (using Python) to predict flight delays, with results visualized in a tool like `Tableau` o `Power BI`. The final output should demonstrate mastery of the required tools and provide a clear, business-relevant insight for an airline client.**
+I will develop a project in the area of Airline Data analytics , which has the following principles
+Build a robust, scalable `ETL Pipeline` on `Google Cloud Platform (GCP)` using `Python` and `Airflow` to ingest publicly available airline operational data, store it efficiently in `BigQuery`, and apply a basic `Machine Learning model` (using Python) to predict flight delays, with results visualized in a tool like `Tableau` o `Power BI`. The final output should demonstrate mastery of the required tools and provide a clear, business-relevant insight for an airline client.
 
-For this I provide the source code in the following repository :
+For this I provide the **`source code`** in the following repository :
 
 https://github.com/Asperjasp/Tekton-Airline-Delay-Prediction
 
